@@ -76,6 +76,12 @@ td, th {
     padding: .2em .5em .2em .5em;
     text-align: left;
 }
-form {
 
+.input-group {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.input-group label {
+    font-weight: bold;
 }

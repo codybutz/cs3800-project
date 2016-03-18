@@ -6,7 +6,7 @@ function get_roles() {
     $query = 'SELECT * FROM roles ORDER BY name';
     $statement = $db->prepare($query);
     $statement->execute();
-    return $statement;
+    return $statement->fetchAll();
 }
 
 function get_role_by_id($id) {
