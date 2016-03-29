@@ -21,18 +21,23 @@
             </nav>
         </aside>
         <section>
-            <h1><?php echo $selectedEmployee['name']; ?></h1>
+            <h1>
+                <?php echo $selectedEmployee['name']; ?>
+                <?php if ($selectedEmployee['admin']): ?>
+                    (Admin)
+                <?php endif; ?>
+            </h1>
             <a href="?action=edit_employee&id=<?php echo $selectedEmployee['id'] ?>">Edit</a>
             <p>
-                <b>Email: </b> <?php echo $selectedEmployee['email'] ?>
+                <b>Email: </b> <?php echo htmlspecialchars($selectedEmployee['email']) ?>
             </p>
             <p>
-                <b>Role: </b> <?php echo $selectedEmployee['role']['name'] ?>
+                <b>Role: </b> <?php echo htmlspecialchars($selectedEmployee['role']['name']) ?>
             </p>
 
             <?php if (!empty($selectedEmployee['comments'])): ?>
                 <p>
-                    <b>Comments: </b> <br> <?php echo $selectedEmployee['comments'] ?>
+                    <b>Comments: </b> <br> <?php echo htmlspecialchars($selectedEmployee['comments']) ?>
                 </p>
             <?php endif; ?>
         </section>

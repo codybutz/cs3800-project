@@ -6,13 +6,13 @@
 
         <title>Omnispear Employee Manager</title>
 
-        <link rel="stylesheet" type="text/css" href="/css/normalize.css" />
-        <link rel="stylesheet" type="text/css" href="/css/main.css" />
+        <link rel="stylesheet" type="text/css" href="/~butz/css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="/~butz/css/main.css" />
 
     </head>
 
     <body>
 
         <header>
-            <h1><a href="/">Omnispear Dashboard</a></h1>
+            <h1><a href="/~butz/">Omnispear Dashboard</a></h1>
         </header>

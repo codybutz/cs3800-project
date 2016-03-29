@@ -3,7 +3,7 @@
 
         <h1>Add New Employee</h1>
 
-        <form action="?action=add_employees_submit" method="post">
+        <form action="?action=add_employee_submit" method="post">
             <?php include '../views/employees/_form.php'; ?>
 
             <button type="submit">Add Employee</button>

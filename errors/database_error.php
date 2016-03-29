@@ -3,13 +3,13 @@
 
 <!-- the head section -->
 <head>
-    <title>My Guitar Shop</title>
+    <title>Omnispear Dashboard</title>
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 
 <!-- the body section -->
 <body>
-    <header><h1>My Guitar Shop</h1></header>
+    <header><h1>Omnispear Dashboard</h1></header>
 
     <main>
         <h1>Database Error</h1>

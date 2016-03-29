@@ -1,3 +1,10 @@
+<?php if (!empty($message)) : ?>
+    <p>
+        <b>Validation issues:</b> <br>
+        <?php echo $message; ?>
+    </p>
+<?php endif; ?>
+
 <div class="input-group">
     <label for="name">Name: </label>
     <input type="text" name="name" id="name" <?php if(isset($employee)) {echo 'value="'. $employee['name'] . '"';} ?>>
